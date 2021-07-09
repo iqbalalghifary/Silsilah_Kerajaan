@@ -1,21 +1,10 @@
-#ifndef tree_H
-#define tree_h
-#include "header.h"
+#ifndef __TREE_H__
+#define __TREE_H__
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <windows.h>
+#include <conio.h>
+#include <ctime>
 
 
-
-bool IsEmpty(Tree tree);
-//Mengecek apakah tree kosong atau tidak
-
-void CreateEmptyTree(Tree *tree);
-//Membuat Tree kosong
-
-void InsertNode(Tree *tree);
-//Menginsertkan node baru pada tree
-
-Tnbtree* Search(Tree tree, infotype nama);
-//Mencari node pada tree 
-
-void DeleteNode(Tree *tree, infotype data);
-
-#endif
