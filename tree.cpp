@@ -107,3 +107,58 @@ Tnbtree* Search(Tree tree, infotype nama){
 	}
 	return NULL;
 }
+
+void DeleteNode(Tree *tree, infotype data){
+	Tnbtree *pSearch, *temp, *pDelete;
+	pSearch = Search(*tree, data);
+	
+	if ((*tree).root==NULL){
+		printf("\nTree Kosong\n");
+	}else 
+		if(data(pSearch) == (data((*tree).root)) ){
+		(*tree).root = NULL;
+		free(pSearch);
+		printf("\nNode root telah dihapus, Tree kosong\n");
+	}
+	
+	else{
+		
+		if(pSearch==NULL){
+			printf("\nNode yang dicari tgiidak ada\n");
+		}
+		
+		else
+		{
+			if(firstSon(pSearch) != NULL){
+				temp = pSearch;
+				while(firstSon(temp) != NULL){
+					temp = firstSon(temp);
+				}
+				while(temp != pSearch){
+					pDelete = temp;
+					if(nextBrother(temp) != NULL){
+						temp = nextBrother(temp);
+						while(firstSon(temp) != NULL){
+							temp = firstSon(temp);
+						}
+					}
+					else{
+						temp = parent(temp);
+					}
+					free(pDelete);
+				}
+			}
+			if(firstSon(parent(pSearch)) == pSearch){
+				firstSon(parent(pSearch)) = nextBrother(pSearch);
+			}
+			else{
+				temp = firstSon(parent(pSearch));
+				while(nextBrother(temp) != pSearch){
+					nextBrother(temp);
+				}
+				nextBrother(temp) = nextBrother(pSearch);
+			}
+			free(pSearch);
+		}
+	}
+}

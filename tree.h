@@ -16,4 +16,6 @@ void InsertNode(Tree *tree);
 Tnbtree* Search(Tree tree, infotype nama);
 //Mencari node pada tree 
 
+void DeleteNode(Tree *tree, infotype data);
+
 #endif
