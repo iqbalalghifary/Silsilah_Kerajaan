@@ -250,4 +250,3 @@ address BalikList (address p){
 	return NodeBefore;
 	
 }
-

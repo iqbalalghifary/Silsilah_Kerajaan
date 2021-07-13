@@ -1,6 +1,6 @@
 [Project]
-FileName=Silsilah Rafli Iqbal.dev
-Name=Silsilah Rafli Iqbal
+FileName=Non-Binary Tree Dinamis.dev
+Name=Non-Binary Tree Dinamis
 Type=1
 Ver=2
 ObjFiles=
@@ -24,12 +24,12 @@ HostApplication=
 UseCustomMakefile=0
 CustomMakefile=
 CommandLine=
-Folders=header,sources
+Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
-CompilerSettings=0000000000000000000000000
-UnitCount=4
+CompilerSettings=0000000000000000001000000
+UnitCount=9
 
 [VersionInfo]
 Major=1
@@ -50,6 +50,26 @@ ProductVersion=
 AutoIncBuildNr=0
 SyncProduct=1
 
+[Unit2]
+FileName=NBTreeD.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit3]
+FileName=NBTreeD.h
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
 [Unit1]
 FileName=main.cpp
 CompileCpp=1
@@ -60,30 +80,60 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit2]
+[Unit4]
 FileName=boolean.h
 CompileCpp=1
-Folder=header
+Folder=
 Compile=1
 Link=1
 Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit3]
-FileName=display.cpp
+[Unit5]
+FileName=header.h
 CompileCpp=1
-Folder=sources
+Folder=
 Compile=1
 Link=1
 Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit4]
-FileName=tree.h
+[Unit6]
+FileName=linked.cpp
 CompileCpp=1
-Folder=header
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit7]
+FileName=linked.h
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit8]
+FileName=queue.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit9]
+FileName=queue.h
+CompileCpp=1
+Folder=
 Compile=1
 Link=1
 Priority=1000

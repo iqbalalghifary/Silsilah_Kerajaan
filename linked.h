@@ -81,4 +81,3 @@ address BalikList (address p);
 /* FS : Elemen List dibalik : elemen terakhir menjadi elemen pertama, dst
 */
 #endif
-
