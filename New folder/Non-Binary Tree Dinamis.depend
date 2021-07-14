@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1593375608 source:d:\silsilah\silpi punya\silsilah\linked.cpp
+	"linked.h"
+
+1593375608 d:\silsilah\silpi punya\silsilah\linked.h
+	"header.h"
+
+1593442234 d:\silsilah\silpi punya\silsilah\header.h
+	<malloc.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<ctype.h>
+	<conio.h>
+	"boolean.h"
+
+1576509484 d:\silsilah\silpi punya\silsilah\boolean.h
+
+1593872838 source:d:\silsilah\silpi punya\silsilah\main.cpp
+	"NBTreeD.h"
+
+1593867962 d:\silsilah\silpi punya\silsilah\nbtreed.h
+	"queue.h"
+
+1576509488 d:\silsilah\silpi punya\silsilah\queue.h
+	"linked.h"
+
+1593868542 source:d:\silsilah\silpi punya\silsilah\nbtreed.cpp
+	"NBTreeD.h"
+
+1576509488 source:d:\silsilah\silpi punya\silsilah\queue.cpp
+	"queue.h"
+
